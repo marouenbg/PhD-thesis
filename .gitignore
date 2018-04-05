@@ -8,6 +8,7 @@
 *.log
 *.out
 *.tif
+*.dvi
 *.synctex.gz
 /Abstract
 /Presentation
