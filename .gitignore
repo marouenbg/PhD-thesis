@@ -1,0 +1,13 @@
+*.pdf
+*.ai
+*.doc
+*.docx
+*.aux
+*.bbl
+*.lof
+*.log
+*.out
+*.tif
+*.synctex.gz
+/Abstract
+/Presentation

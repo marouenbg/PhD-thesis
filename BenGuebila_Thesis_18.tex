@@ -1,0 +1,131 @@
+\documentclass[12pt,a4paper]{book}
+%\documentclass[draft,12pt,a4paper]{book} %Quick run to inspect layout/text. Inserts placeholders for figures.
+\usepackage[T1]{fontenc}  
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{kbordermatrix}
+\usepackage{mathtools,amssymb}
+\usepackage{ccaption}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\graphicspath{ {images/} }% set path to figures
+\usepackage[numbers]{natbib}
+\usepackage{chapterbib}
+\usepackage[justify]{ragged2e}
+\usepackage{booktabs}
+\usepackage[inner=2.5cm,outer=3cm,bottom=2.5cm]{geometry}%Uni recommended margins
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{caption}
+\usepackage{array}
+\usepackage{float}
+\usepackage[flushleft]{threeparttable}
+\usepackage{setspace}
+\usepackage{subfig}
+\usepackage{pbox}
+\usepackage{pdflscape}
+\usepackage{longtable}
+\usepackage{lipsum}% to generate filler text
+\usepackage{pdfpages}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{newtxtext, newtxmath}
+\usepackage{textcomp}%for registered symbol
+\newcolumntype{C}[1]{>{\Centering}m{#1}}
+\renewcommand\tabularxcolumn[1]{C{#1}}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\renewcommand{\baselinestretch}{1.5} %line spacing
+\usepackage{hyperref}
+
+\begin{document}
+
+\pagenumbering{Roman}%front material should have roman page numbers
+
+\includepdf[pages={1}]{myNewCoverPage.pdf}%Cover page provided by UniLU administration
+
+\input{second}%second page
+
+%\input{affidavit}%comment out if inserting PDF
+\includepdf[pages={1}]{affidavit.pdf}% Insert PDF affidavit page
+
+\clearpage
+\input{dedication}
+\clearpage
+\input{epigraph}
+\clearpage
+\chapter*{Acknowledgements}
+\input{acknowledgments}
+\tableofcontents
+
+\listoffigures%optional
+\listoftables%optional
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{section}{List of abbreviations}
+\chapter*{List of Abbreviations}
+\markboth{LIST OF ABBREVIATIONS}{LIST OF ABBREVIATIONS}%adds the correct header
+\input{chapters/ListOfAbbreviations}
+
+ %Abstract
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{Summary}
+\chapter*{Summary}
+\markboth{SUMMARY}{SUMMARY}
+\input{chapters/Summary}
+
+% Main material
+\pagenumbering{arabic}% switch to arabic page numbering
+
+
+\chapter{Introduction: Integrative approaches for drug development.}
+\label{ch:chapter1}
+\chaptermark{Introduction}%Short description for page header
+\input{chapters/intro}%Path to chapter
+
+\chapter{Predicting gastrointestinal drug effects using contextualized metabolic models.}
+\label{ch:chapter2}
+\chaptermark{Intestinal side effect prediction}%Short description for page header
+\input{chapters/sideffect}%Path to chapter
+
+\chapter{Model-based dietary optimization for late-stage, levodopa-treated, Parkinson's disease patients.}
+\label{ch:chapter3}
+\chaptermark{Levodopa-diet interaction}%Short description for page header
+\input{chapters/levodopa}%Path to chapter
+
+\chapter{Dynamic load balancing enables fast and parallel computation of large-scale metabolic models.}
+\label{ch:chapter4}
+\chaptermark{dynamic load balancing of metabolic models}%Short description for page header
+\input{chapters/VFFVA}%Path to chapter
+
+\chapter{Pan-organ model integration of regulatory and metabolic processes in type 1 diabetes.}
+\label{ch:chapter5}
+\chaptermark{Whole-body dynamic model}%Short description for page header
+\input{chapters/GIMHarvey}%Path to chapter
+
+\chapter{Concluding remarks}
+\label{ch:chapter6}
+\chaptermark{Concluding remarks}%Short description for page header
+\input{chapters/concludingRemarks}%Path to chapter
+% References
+
+\setstretch{1}%chose single space for references and supplements
+\bibliographystyle{apalike}
+\bibliography{references}
+
+% Appendices
+%
+\appendix
+\chapter{Supplementary material for Chapter 2}
+\input{supplements/supplements2}%Path to supplementary material
+
+\chapter{Supplementary material for Chapter 3}
+\input{supplements/supplements3}%Path to supplementary material
+
+\chapter{Supplementary material for Chapter 5}
+\input{supplements/supplements5}%Path to supplementary material
+
+\end{document}

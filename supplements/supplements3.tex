@@ -1,0 +1,345 @@
+\section{Supplementary tables}
+The following table are too large to be displayed in text and are available via the publisher's website.
+
+\begin{table}[h]
+\caption[Ordinary differential equation-based levodopa pharmacokinetics.]{\hbox{Table of Ordinary differential equation-based levodopa pharmacokinetic model.}\\\hbox{Direct download: }\href{https://images.nature.com/original/nature-assets/npjsba/2016/npjsba201613/extref/npjsba201613-s2.doc}{\hbox{https://images.nature.com/original/nature-assets/npjsba/2016/npjsba2016}\\13/extref/npjsba201613-s2.doc}}
+\begin{center}
+	\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} ll}
+	\hline
+	Columns	                     & Description       \\ 
+	\hline
+	Equation name     & The name of the current equation in the model.     \\
+	Equation description         & A detailed description of the biological process associated\\ & to the equation.        \\
+	Equation                     & The formal ODE.             \\
+	Parameter description        & A description of the biological relevance of the equation's\\ & parameters.           \\
+	\hline
+	\end{tabular*}
+\end{center}
+\label{tbl:tbls1}%descriptive label to refer to figure in text
+\end{table}
+
+\newpage
+\begin{table}[h]
+\caption[Whole-body generic PBPK model parameter estimation from curve fitting.]{\hbox{Table of whole body generic PBPK model parameter estimation from curve fitting.}}
+\begin{center}
+	\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} llll}
+	\hline
+	Parameter  	                      & Model constraints & Estimated value & Literature value       \\ 
+	\hline
+	Molecular weight                  & 197.18 g/mol & Fixed & 197.18 g/mol \cite{knox2010drugbank}    \\
+	\makecell[l]{Blood plasma\\ partition coefficient}         & > 0 & 0.57 & -       \\
+	Clearance                         & 0.5-5 l/kg/h & 0.95 l/kg/h & 0.55-1.38 l/kg/h \cite{martinelli2003levodopa}         \\
+	Log of permeability               & < 0 & -4.9 & -2.39          \\
+	Unbound fraction                  & 0.6-0.95 & 0.95 & 0.6-0.95 \\
+	\makecell[l]{Effective luminal \\ intestinal permeability} & 0-5 cm/hour & 1.8 cm/hour & 1.22 cm/hour \cite{lennernas1993effect}  \\
+	Distribution factor               & > 0 & 1.24 & - \\
+	\makecell[l]{Effective basolateral\\ intestinal permeability} & 0-5 cm/hour & 3.6 cm/hour & \makecell[l]{$\geq$ Effective luminal \\ intestinal permeability \cite{agoram2001predicting}} \\
+	\hline
+	\end{tabular*}
+\end{center}
+\caption*{The estimated parameters are within the reported biological interval. The clearance regroups the overall elimination from the body in the eliminating organs (brain, kidneys, liver). The parameters units are mentioned and dimensionless otherwise.}
+\label{tbl:tbls2}%descriptive label to refer to figure in text
+\end{table}
+
+\newpage
+\begin{table}[h]
+\caption[Reactions added to the sIEC model ordered by affinity of amino acids to the corresponding transporter.]{Reactions added to the sIEC model ordered by affinity of amino acids to the corresponding transporter.}
+\begin{center}
+	\begin{tabularx}{\textwidth}{L{10.5cm}L{4cm}}
+	\hline
+	\textbf{Luminal antiport reactions}        & \textbf{GPR(Entrez ID)}     \\ 
+	\hline
+	34dhphe[u] + ala\_L[c] $\rightarrow$ 34dhphe[c] + ala\_L[u] &    \\
+	34dhphe[u] + leu\_L[c] $\rightarrow$ 34dhphe[c] + leu\_L[u] & 11136 and 6519 \cite{verrey2000glycoprotein}   \\
+	34dhphe[u] + leu\_L[c] $\rightarrow$ 34dhphe[c] + leu\_L[u] &        \\
+	\hline
+	\end{tabularx}\par\vskip-1.4pt
+		\begin{tabularx}{\textwidth}{L{10.5cm}L{4cm}}
+	\hline
+	\textbf{Basolateral antiport reactions}        & \textbf{GPR(Entrez ID)}     \\ 
+	\hline
+	34dhphe[c] + tyr\_L[e] $\rightarrow$ 34dhphe[e] + tyr\_L[c] &    \\
+	34dhphe[c] + trp\_L[e] $\rightarrow$ 34dhphe[e] + trp\_L[c] &    \\
+	34dhphe[c] + phe\_L[e] $\rightarrow$ 34dhphe[e] + phe\_L[c] &     \\
+	34dhphe[c] + thr\_L[e] $\rightarrow$ 34dhphe[e] + thr\_L[c] &    \\
+	34dhphe[c] + ile\_L[e] $\rightarrow$ 34dhphe[e] + ile\_L[c] &    \\
+	34dhphe[c] + cys\_L[e] $\rightarrow$ 34dhphe[e] + cys\_L[c] &  23428 and 6520 \cite{verrey2000glycoprotein}   \\
+	34dhphe[c] + ser\_L[e] $\rightarrow$ 34dhphe[e] + ser\_L[c] &    \\
+	34dhphe[c] + val\_L[e] $\rightarrow$ 34dhphe[e] + val\_L[c] &    \\
+	34dhphe[c] + leu\_L[e] $\rightarrow$ 34dhphe[e] + leu\_L[c] &     \\
+    34dhphe[c] + glu\_L[e] $\rightarrow$ 34dhphe[e] + glu\_L[c] &    \\
+	34dhphe[c] + ala\_L[e] $\rightarrow$ 34dhphe[e] + ala\_L[c] &    \\
+	34dhphe[c] + his\_L[e] $\rightarrow$ 34dhphe[e] + his\_L[c] &     \\
+    34dhphe[c] + asp\_L[e] $\rightarrow$ 34dhphe[e] + asp\_L[c] &    \\
+	34dhphe[c] + met\_L[e] $\rightarrow$ 34dhphe[e] + met\_L[c] &    \\
+	\hline
+	\end{tabularx}\par\vskip-1.4pt
+	\begin{tabularx}{\textwidth}{L{10.5cm}L{4cm}}
+	\hline
+	\textbf{Complementary luminal amino acids}        & \textbf{GPR(Entrez ID)}     \\ 
+	\textbf{antiport reactions} & \\
+	\hline
+	leu\_L[u] + ala\_L[c] $\rightarrow$ leu\_L[c] + ala\_L[u] &    \\
+	leu\_L[u] + arg\_L[c] $\rightarrow$ leu\_L[c] + arg\_L[u] &    \\
+	lys\_L[u] + arg\_L[c] $\rightarrow$ lys\_L[c] + arg\_L[u] &    \\
+	lcystin[u] + arg\_L[c] $\rightarrow$ lcystin[c] + arg\_L[u] & 11136 and 6519 \cite{verrey2000glycoprotein}   \\
+	orn[u] + arg\_L[c] $\rightarrow$ orn[c] + arg\_L[u] &    \\
+	tyr\_L[u] + ala\_L[c] $\rightarrow$ tyr\_L[c] + ala\_L[u] &    \\
+	tyr\_L[u] + arg\_L[c] $\rightarrow$ tyr\_L[c] + arg\_L[u] &    \\
+	ala\_L[u] + arg\_L[c] $\rightarrow$ ala\_L[c] + arg\_L[u] &    \\
+	ala\_L[u] + leu\_L[c] $\rightarrow$ ala\_L[c] + leu\_L[u] &     \\
+	\hline
+	\end{tabularx}\par\vskip-1.4pt
+    \begin{tabularx}{\textwidth}{L{10.5cm}L{4cm}}
+	\hline
+	\textbf{Intracellular accumulation}        &      \textbf{References}     \\ 
+	\hline
+	(Demand reaction) 34dhphe[c] $\rightarrow$ &  \cite{camargo2014molecular}  \\
+	\hline
+	\end{tabularx}\par\vskip-1.4pt
+    \begin{tabularx}{\textwidth}{L{10.5cm}L{4cm}}
+	\hline
+	\textbf{Luminal competition}        &      \textbf{References}     \\ 
+	\hline
+	0.42 34dhphe[u] + 0.1 lcystin[u] $\rightarrow$ artefact[u] &    \\
+	0.38 34dhphe[u] + 0.1 arg\_L[u] $\rightarrow$ artefact[u] &    \\
+	0.34 34dhphe[u] + 0.1 lys\_L[u] $\rightarrow$ artefact[u]&    \\
+	0.3 34dhphe[u] + 0.1 leu\_L[u $\rightarrow$ artefact[u] &    \\
+	0.26 34dhphe[u] + 0.1 tyr\_L[u] $\rightarrow$ artefact[u] & \cite{camargo2014molecular,verrey2000glycoprotein}   \\
+	0.22 34dhphe[u] + 0.1 ala\_L[u] $\rightarrow$ artefact[u] &    \\
+	0.18 34dhphe[u] + 0.1 orn[u] $\rightarrow$ artefact[u] &    \\
+	(Demand reaction) artefact[u] $\rightarrow$ &    \\
+	\hline
+	\end{tabularx}
+\end{center}
+\label{tbl:tbls3}%descriptive label to refer to figure in text
+\end{table}
+
+\clearpage
+\begin{table}[h]
+\caption*{Table \ref{tbl:tbls3}: Continued}
+\begin{center}
+	\begin{tabularx}{\textwidth}{L{10.5cm}L{4cm}}
+	\hline
+	\textbf{Trans-stimulation with basolateral amino acids}        &      \textbf{References}     \\ 
+	\hline
+	(Demand reaction) 34dhphe[c] * 0.77 $\rightarrow$ &  \cite{camargo2014molecular}   \\
+	\hline
+	\end{tabularx}
+\end{center}
+\caption*{The basolateral uniport reaction exits already in the original sIEC, its lower bound was set to zero to avoid free diffusion back in the cell from the basolateral side. 34dhphe represents levodopa and artefact represents a dummy molecule that accounts for the luminal loss of levodopa in the presence of amino acids. The stoichiometric coefficients of luminal competition were inferred from reported in vitro experiments and represent the percentage of loss of levodopa. u, c and e stand for lumen, cytoplasm and blood, respectively. GPR stands for gene protein reaction.}
+\label{tbl:tbls31}%descriptive label to refer to figure in text
+\end{table}
+
+\clearpage
+\begin{table}[h]
+\caption[Top 5 ranking parameter sensitivities.]{Top 5 ranking parameter sensitivities.}
+\begin{center}
+	\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} lll}
+	\hline
+	Rank  	           & Parameter & Description       \\ 
+	\hline
+	1                  & intestlo & Intestinal loss of levodopa.    \\
+	2                  & stomlo & Stomach loss of levodopa.  \\
+	3                  & k\textsubscript{abl} & Secretion of levodopa in the portal vein through the basolateral\\& & membrane of enterocyte.      \\
+	4                  & GER & Gastric emptying rate      \\
+	5                  & K\textsubscript{t} & Small intestine transit rate constant  \\
+	\hline
+	\end{tabular*}
+\end{center}
+\caption*{The parameters are represented with their model designation and a description of their biological properties.}
+\label{tbl:tbls4}%descriptive label to refer to figure in text
+\end{table}
+
+\clearpage
+\begin{table}[h]
+\caption[Levodopa exchange substrate in the kidney and in the blood brain barrier.]{Levodopa exchange substrate in the kidney and in the blood brain barrier.}
+\begin{center}
+	\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} lllll}
+	\hline
+	Compartment  	       & \makecell[l]{Substrates in \\
+(ordered by affinity \\for the transporter)}
+ & Substrates out & GPR (Entrez ID) & References      \\ 
+	\hline
+	Brain                  & \makecell[l]{leu,his,ile,phe,tyr,trp,\\
+val,met,gln,levodopa}
+& leu & 855653 & \cite{verrey2000glycoprotein}   \\
+	Kidney                 & \makecell[l]{tyr,trp,phe,thr,ile,cys, \\ ser,val,leu,gln,ala,his,\\ asn,met,
+gly,levodopa} & phe,ile,leu & 7462 & \cite{verrey2000glycoprotein} \\
+	\hline
+	\end{tabular*}
+\end{center}
+\caption*{The substrates are ordered by affinity to the transporter. GPR stands for gene protein reaction.}
+\label{tbl:tbls5}%descriptive label to refer to figure in text
+\end{table}
+
+\clearpage
+\begin{table}[h]
+\caption[Constraints subjected to a three organ model accounting for levodopa absorption, elimination, metabolism and competition with amino acids.]{Constraints subjected to a three organ model accounting for levodopa absorption, elimination, metabolism and competition with amino acids.}
+\begin{center}
+	\begin{tabularx}{\textwidth}{L{12cm}L{2.5cm}}
+	\hline
+	\textbf{Added reactions and affinity coefficients}     & \makecell[l]{\textbf{Constraints} \\ \textbf{(ub, lb)}}     \\ 
+	\hline
+	Small intestine lumen : 34dhphe[u] $\rightarrow$ &  -15  \\
+	\{amino acid\}\_L[u] $\rightarrow$ & -3   \\
+	34dhphe[u] $\rightarrow$ 34dhphe[elim]  &  +5 \\
+	(non-absorbed fraction in the gut) & \\     
+	\hline
+	\end{tabularx}\par\vskip-1.4pt
+		\begin{tabularx}{\textwidth}{L{12cm}L{2.5cm}}
+	\hline
+	\textbf{Blood brain barrier reactions}        & \makecell[l]{\textbf{Constraints} \\ \textbf{(ub, lb)}}    \\ 
+	\hline
+	Blood brain barrier : 34dhphe[e]   34dhphe[bbb] &  unc  \\
+	(Demand reaction) 34dhphe[bbb] $\rightarrow$ &  unc  \\
+	0.23 34dhphe[e] + 1 leu\_L[e] $\rightarrow$ 0.23 34dhphe[bbb] + 1 leu\_L[bbb] &  unc   \\
+	0.26 34dhphe[e] + 1 his\_L[e] $\rightarrow$ 0.26 34dhphe[bbb] + 1 his\_L[bbb] &  unc  \\
+	0.29 34dhphe[e] + 1 ile\_L[e] $\rightarrow$ 0.29 34dhphe[bbb] + 1 ile\_L[bbb] &  unc  \\
+	0.33 34dhphe[e] + 1 phe\_L[e] $\rightarrow$ 0.33 34dhphe[bbb] + 1 phe\_L[bbb] &  unc  \\
+	0.36 34dhphe[e] + 1 tyr\_L[e] $\rightarrow$ 0.36 34dhphe[bbb] + 1 tyr\_L[bbb] &  unc  \\
+	0.39 34dhphe[e] + 1 trp\_L[e] $\rightarrow$ 0.39 34dhphe[bbb] + 1 trp\_L[bbb] &  unc  \\
+	0.43 34dhphe[e] + 1 val\_L[e] $\rightarrow$ 0.43 34dhphe[bbb] + 1 val\_L[bbb] &  unc   \\
+    1 34dhphe[e] + 1 thr\_L[e] $\rightarrow$ 1 34dhphe[bbb] + 1 thr\_L[bbb]       &  unc  \\
+	1 34dhphe[e] + 1 cys\_L[e] $\rightarrow$ 1 34dhphe[bbb] + 1 cys\_L[bbb]       &  unc  \\
+	1 34dhphe[e] + 1 ser\_L[e] $\rightarrow$ 1 34dhphe[bbb] + 1 ser\_L[bbb]       &  unc   \\
+    0.58 34dhphe[e] + 1 glu\_L[e] $\rightarrow$ 0.58 34dhphe[bbb] + 1 glu\_L[bbb] &  unc  \\
+	1 34dhphe[e] + 1 ala\_L[e] $\rightarrow$ 1 34dhphe[bbb] + 1 ala\_L[bbb]       &  unc  \\
+	1 34dhphe[e] + 1 asn\_L[e] $\rightarrow$ 1 34dhphe[bbb] + 1 asn\_L[bbb]       &  unc  \\
+	1 34dhphe[e] + 1 gln\_L[e] $\rightarrow$ 1 34dhphe[bbb] + 1 gln\_L[bbb]       &  unc  \\
+	1 34dhphe[e] + 1 gly\_L[e] $\rightarrow$ 1 34dhphe[bbb] + 1 gly\_L[bbb]      &  unc  \\
+	1 34dhphe[e] + 1 pro\_L[e] $\rightarrow$ 1 34dhphe[bbb] + 1 pro\_L[bbb]      &  unc  \\
+	1 34dhphe[e] + 1 lys\_L[e] $\rightarrow$ 1 34dhphe[bbb] + 1 lys\_L[bbb]      &  unc  \\
+	1 34dhphe[e] + 1 arg\_L[e] $\rightarrow$ 1 34dhphe[bbb] + 1 arg\_L[bbb]      &  unc  \\
+	1 34dhphe[e] + 1 asp\_L[e] $\rightarrow$ 1 34dhphe[bbb] + 1 asp\_L[bbb]      &  unc  \\
+	0.5 34dhphe[e] + 1 met\_L[e] $\rightarrow$ 0.5 34dhphe[bbb] + 1 met\_L[bbb]  &  unc  \\
+	\hline
+	\end{tabularx}
+\end{center}
+\label{tbl:tbls6}%descriptive label to refer to figure in text
+\end{table}
+
+\clearpage
+\begin{table}[h]
+\caption*{Table \ref{tbl:tbls6}: Continued}
+\begin{center}
+	\begin{tabularx}{\textwidth}{L{12cm}L{2.5cm}}
+	\hline
+	\textbf{Kidney reactions}        &      \makecell[l]{\textbf{Constraints} \\ \textbf{(ub, lb)}}      \\ 
+	\hline
+	Kidney : 34dhphe[e] $\rightarrow$ 34dhphe[ku] &  unc \\
+	0.5 34dhphe[ku] + 1 tyr\_L[ku] $\rightarrow$ 0.5 34dhphe[k] + 1 tyr\_L[k] &  unc \\
+	0.5 34dhphe[ku] + 1 trp\_L[ku] $\rightarrow$ 0.5 34dhphe[k] + 1 trp\_L[k] &  unc \\
+	0.5 34dhphe[ku] + 1 phe\_L[ku] $\rightarrow$ 0.5 34dhphe[k] + 1 phe\_L[k] &  unc \\
+	0.6 34dhphe[ku] + 1 thr\_L[ku] $\rightarrow$ 0.6 34dhphe[k] + 1 thr\_L[k] &  unc \\
+	0.63 34dhphe[ku] + 1 ile\_L[ku] $\rightarrow$ 0.63 34dhphe[k] + 1 ile\_L[k] &  unc \\
+	0.66 34dhphe[ku] + 1 cys\_L[ku] $\rightarrow$ 0.66 34dhphe[k] + 1 cys\_L[k] &  unc \\
+	0.69 34dhphe[ku] + 1 ser\_L[ku] $\rightarrow$ 0.69 34dhphe[k] + 1 ser\_L[k]&  unc \\
+	0.73 34dhphe[ku] + 1 val\_L[ku] $\rightarrow$ 0.73 34dhphe[k] + 1 val\_L[k] &  unc \\
+	0.76 34dhphe[ku] + 1 leu\_L[ku] $\rightarrow$ 0.76 34dhphe[k] + 1 leu\_L[k] &  unc \\
+	0.79 34dhphe[ku] + 1 glu\_L[ku] $\rightarrow$ 0.79 34dhphe[k] + 1 glu\_L[k] &  unc \\
+	0.83 34dhphe[ku] + 1 ala\_L[ku] $\rightarrow$ 0.83 34dhphe[k] + 1 ala\_L[k] &  unc \\
+	0.86 34dhphe[ku] + 1 his\_L[ku] $\rightarrow$ 0.86 34dhphe[k] + 1 his\_L[k] &  unc \\
+	0.89 34dhphe[ku] + 1 asn\_L[ku] $\rightarrow$ 0.89 34dhphe[k] + 1 asn\_L[k] &  unc \\
+	0.93 34dhphe[ku] + 1 gln\_L[ku] $\rightarrow$ 0.93 34dhphe[k] + 1 gln\_L[k] &  unc \\
+	1 34dhphe[ku] + 1 gly\_L[ku] $\rightarrow$ 1 34dhphe[k] + 1 gly\_L[k] &  unc \\
+	1 34dhphe[ku] + 1 pro\_L[ku] $\rightarrow$ 1 34dhphe[k] + 1 pro\_L[k] &  unc \\
+	1 34dhphe[ku] + 1 lys\_L[ku] $\rightarrow$ 1 34dhphe[k] + 1 lys\_L[k] &  unc \\
+	1 34dhphe[ku] + 1 arg\_L[ku] $\rightarrow$ 1 34dhphe[k] + 1 arg\_L[k] &  unc \\
+	1 34dhphe[ku] + 1 asp\_L[ku] $\rightarrow$ 1 34dhphe[k] + 1 asp\_L[k] &  unc \\
+	1 34dhphe[ku] + 1 met\_L[ku] $\rightarrow$ 1 34dhphe[k] + 1 met\_L[k] &  unc \\
+	\hline
+	\end{tabularx}
+\end{center}
+\caption*{While the small intestine has been represented by the genome scale model, only levodopa transport reactions were modeled for the kidneys and blood brain barrier. Amino acids that do not compete with levodopa have a stoichiometric coefficient of 1, amino acids that compete have a coefficient < 1, the higher the affinity for the transporter the lower the coefficient. 20 models were generated, one for every combination of one amino acid and levodopa. ku stands for kidney lumen, bbb for blood brain barrier ,and unc for unconstrained.}
+\label{tbl:tbls31}%descriptive label to refer to figure in text
+\end{table}
+
+\clearpage
+\section{Supplementary figures}
+\subsubsection{Dynamical modeling of levodopa gastrointestinal transit and metabolism within the whole body generic PBPK model} \label{levo:sp1}
+\begin{figure}[!htp]
+\centering
+	\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{levodopa/figS1.png}%Figure from images\Figure1.png
+	\caption[Goodness of fit of PBPK levodopa model.]{(Continued on the following page.)}
+	\label{fig:s1levo}
+\end{figure}
+\begin{figure}[t]
+  \contcaption{A – levodopa PBPK whole body model structure. The small intestine compartmentalization is detailed in Figure \ref{fig:curves}. The elimination is considered only in the kidneys, while peripheral metabolism of levodopa (e.g., liver) as well as conversion to dopamine (in the brain) represent routes of elimination. The goodness of fit of the latter models on the same data did not show improvement over the kidney elimination model (data not shown). B - Curve fitting of a standard dose of 200 mg of carbidopa (levodopa and benserazide) in healthy volunteers on PBPK generic whole body model. The solid lines represent the model performance with the estimated parameters with the observed data values. The root mean square deviation value was 71.13 ng/ml. C - Two occasions sequential fit of levodopa plasma concentrations in fasted state followed by a meal \cite{contin2010pharmacokinetics}. The parameters identified in the fasted state were fixed in fed state except the gastric emptying rate, which was left unconstrained and was estimated in the second administration of levodopa with a meal. The solid line represent the model simulation with the parameters obtained from the fitting process.}% Continued caption
+\end{figure}
+The generic physiologically based pharmacokinetic whole body model \cite{peters2008evaluation} assumes the enterocyte as a ‘thin wall’. In other words, drugs absorbed in the lumen are directly present in the portal vein. This assumption does not allow us to model luminal competition and basolateral trans-stimulation. For these reasons, enterocyte compartments were added as described in \cite{agoram2001predicting} that aided in the coupling of sIEC genome-scale metabolic models. The enterocyte performs three main biological functions with regards to levodopa. The luminal absorption, the basolateral secretion and the accumulation of levodopa which is the difference between the absorption and secretion.
+
+The absorption and secretion by the enterocyte was modeled with the following ODEs (\cite{agoram2001predicting}:\\
+Luminal absorption in compartment \textit{i}: \\
+\begin{center}
+$Absorption_{(i)}=k_a*V_(i)*C_{(i)L}$\\
+\end{center}
+Basolateral secretion in compartment \textit{i}:\\
+\begin{center}
+$Secretion_{(i)}=k_abl*V_(i)*C_{(i)ENT}$ \\
+\end{center}
+Concentration inside the enterocyte in compartment \textit{i}:\\
+\begin{center}
+$\frac{dC_{(i)ENT}}{dt}=\frac{(Absorption_{(i)}-Secretion_{(i)})}{V_{ENT}}$\\
+\end{center}
+with $k_a,k_{abl},V,C,L$ and $ENT$ luminal absorption constant, basolateral absorption constant, volume, concentration, lumen, enterocyte, respectively. $i$ ranges from 1 to 7.
+The set of equations and parameters describing gastrointestinal processes were added to the generic PBPK whole body model as described in \cite{peters2008evaluation},  as in table\ref{tbl:tbls1}.
+
+\subsubsection{Parameter estimation} \label{levo:sp2}
+The data fitting and simulations was performed using Matlab (2014b release, MathWorks, Natick, MA) and Tomlab (TomOpt Inc.). The model parameters (Table \ref{tbl:tbls1}) were identified with \textit{fmincon} algorithm, which finds the minimum of a nonlinear optimization problem subjected to a set of constraints,  and global search option, that ensures the converges to the global minimum of the objective function through testing different sets of initial points. The parameters were constrained to stay in the reported human biological values (Table \ref{tbl:tbls1}). The minimized objective function is chosen as the root mean square deviation (RMSD).
+
+\subsubsection{Adding levodopa reactions to sIEC} \label{levo:sp3}
+The sIEC model is represented in the stoichiometric matrix $S$, which is obtained by the conversion of the reconstruction into a mathematical format as following:
+
+\begin{center}
+  \begin{tabular}{cc}
+  Reaction: & A+B $\rightarrow$ 2 C  \\
+  \end{tabular}
+\end{center}
+
+,where the rows represent metabolites and the columns represent reactions.
+The levodopa transport reactions were added to the sIEC model (Table \ref{tbl:tbls2}) and the luminal uptake of levodopa was set as the objective function. The choice of the objective function agreed with both empirical results and numerical simulations. The main function of the small intestine in the gut wall is the transport and metabolism of substrates from the luminal side to the portal vein. Since levodopa does not contribute to the homeostasis of the sIEC, considering biomass maintenance as the objective function did not result in transport of levodopa. The luminal and basolateral transport reactions were added according to the recently identified levodopa transporters \cite{camargo2014molecular}. 
+The competition was modeled as the loss of a luminal fraction of levodopa in the presence of amino acids. Stoichiometric coefficients were calibrated to account for affinities of different amino acids for the antiporter (Table \ref{tbl:tbls2} – luminal competition). In fact, amino acids with high affinity to the transporter (cystine) result in higher loss of levodopa, thus they were assigned a higher coefficient than less affine amino acids (ornithine) for the transporter. The coefficients for leucine and arginine were measured in vivo in mice \cite{camargo2014molecular}. While the unmeasured values were extrapolated following the reported order of affinity \cite{verrey2000glycoprotein}.
+The trans-stimulation was modeled as the decrease in the flux through cellular accumulation reaction (Table \ref{tbl:tbls2} – Intracellular accumulation), by unconstraining the basolateral antiporter with respect to the fasted value, and by setting the flux of the basolateral uniporter to the fasted value. The resulting basolateral transport was then updated and set in the ODE model as the gastrointestinal basolateral efflux term in the next time step. The percentage decrease in the intracellular accumulation of levodopa was set to 0.7 as measured in vivo in mice \cite{camargo2014molecular} (Table \ref{tbl:tbls2} – Trans-stimulation). It can be adapted to account for different basolateral affinities of amino acids. In fact, basolateral amino acids that trigger a high trans-stimulation through the antiporter reduce the intracellular accumulation of levodopa by a higher coefficient than less trans-stimulating amino acids. Consequently, the new flux through the antiporter was computed with the following linear programming problem:
+\begin{alignat*}{2} \tag{1}
+  & \text{maximize: } &  & c^{T}v (objective function)\\
+  & \text{subject to: } &  &  
+                \begin{aligned}[t] \\
+                & S.v=0 \\
+                & v_{i,min} \leq v_{i}  \leq  v_{i,max}
+                \end{aligned}
+\end{alignat*}
+,where $c$ is the coefficients vector for the objective function, $v$ represents the flux distribution, $v_{i,min}$ and $v_{i,max}$ are respectively the minimal and maximal capacity for reaction $i$. The system assumes steady state for the chosen time step as well as mass balance ($S.v=0$). This approach is also called flux balance analysis (FBA) (5). 
+\begin{figure}[!htp]
+\centering
+	\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{levodopa/figS2.png}%Figure from images\Figure1.png
+	\caption[Predicted versus measured levodopa kinetics.]{Goodness of fit plot of the simulated and measured levodopa plasma concentration in the fasted state, corresponding to figure S1-B. The model was simulated with the parameter values obtained from curve fitting the model on the observed data.}
+	\label{fig:s2levo}
+\end{figure}
+
+\subsubsection{Sequential fit on two occasions: fasted and fed states} \label{levo:sp4}
+First, the fitting of whole body generic PBPK model on fasted healthy volunteers plasma concentrations of levodopa, after 200 mg of standard formulation of levodopa, allowed to get the distribution and elimination parameters including the GER at the fasted state (3.96 h\textsuperscript{-1}). Then, all model parameters were fixed and only GER was estimated (0.33 h\textsuperscript{-1}) in the second occasion, i.e., the administration of levodopa with aproteic meal.
+\begin{figure}[!htp]
+\centering
+	\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{levodopa/figS3.png}%Figure from images\Figure1.png
+	\caption[Time course of levodopa fluxes.]{(Continued on the following page)}
+	\label{fig:s3levo}
+\end{figure}
+\begin{figure}[t]
+  \contcaption{Predicted flux values of the levodopa luminal antiporter (blue), cellular accumulation (turquoise), basolateral antiporter (green), and basolateral uniporter (yellow) in the seven small intestinal compartments, after \textit{Per os} administration of 200 mg of standard formulation of levodopa at the fasted state. For the intracellular accumulation (represented in the model with a reversible drain for levodopa (sink\_levodopa)), positive fluxes refer to accumulation, while negative fluxes represent secretion. The conversion to mmol/gDW\textsubscript{enterocyte}/hour was done as described in section adding levodopa reactions to sIEC.}% Continued caption
+\end{figure}
+\subsubsection{Amino acids ranking simulations} \label{levo:sp5}
+\begin{figure}[!htp]
+\centering
+	\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{levodopa/figS4.png}%Figure from images\Figure1.png
+	\caption[Whole body PBPK model parameter sensitivity analysis.]{Whole body PBPK model parameter sensitivity analysis. Over 243 parameter, the 10 most influential absolute sensitivities are plotted. The first five parameters are described in Table \ref{tbl:tbls3}.}
+	\label{fig:s4levo}
+\end{figure}
+The small intestine model was extended by adding a kidney compartment and brain compartment with the corresponding levodopa transport reactions (Figure S5). The objective function was set as the demand reaction for levodopa in the brain (Table \ref{tbl:tbls4}). The kidney and brain exchange reaction modeling took into account the affinity of substrates for the transporter, through assigning different arbitrary weights (Table \ref{tbl:tbls2}) for the fluxes representing each individual amino acid (Table \ref{tbl:tbls5}). The weighing coefficient is proportional to the amount of levodopa lost due to the competition with amino acids. The higher the competitive potential of the amino acid, the higher the assigned weight following the reported order of affinity of each transporter for amino acids \cite{verrey2000glycoprotein}. The coefficients were calibrated to take into account the tissue-specific competition potential of levodopa transporters in the following order: blood brain barrier, enterocyte, kidneys as supported by clinical investigation \cite{robertson1991influence,nutt1984off}. Trans-stimulation was not modeled in the kidneys and the brain as it is not supported by experimental evidence. The liver elimination was not formulated in the optimization problem as no records of competition were reported. 
+An arbitrary intake of levodopa was set to 15 mg/l/h. Two thirds of this amount are absorbed by the small intestine. Since levodopa is antiported to the blood compartment, an excess of alanine, the contralateral substance to levodopa, was added. In order for levodopa to reach the blood brain barrier and the kidney, two demand reactions were added in these compartments. 30\% of levodopa was set to be eliminated by the kidneys and the rest transported through the blood brain barrier. Then a 3 mg/l/h of each amino acid was added simultaneously with levodopa and the fraction reaching the brain was calculated. Each amino acid either competed with levodopa in the small intestine, blood brain barrier or kidneys or all of the three organs. Basolateral trans-stimulation of levodopa intestinal secretion increases the absorption of levodopa. Since trans-stimulation was not proven in kidney and brain transporters, these were not modelled.  
+\begin{figure}[!htp]
+\centering
+	\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{levodopa/figS5.png}%Figure from images\Figure1.png
+	\caption[Intestine, kidney, and brain simplified network of levodopa.]{Schematic view of small intestine, kidney and blood brain barrier transport reactions integration. The small intestine is represents through the genome-scale sIEC model, while only the transport reactions from blood to the organ were modelled in the other sites of competition (e.g., kidneys and brain compartments). }
+	\label{fig:s5levo}
+\end{figure}

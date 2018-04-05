@@ -1,0 +1,33 @@
+\select@language {english}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {1.1}{\ignorespaces Comparison of PBPK models with metabolic models.}}{20}{table.caption.14}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Fed versus fasted state physiological parameters.}}{69}{table.caption.55}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Model size and description.}}{80}{table.caption.58}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Comparison of run times of FFVA and VFFVA in small models.}}{83}{table.caption.60}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Comparative summary of the methods' features.}}{87}{table.caption.67}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Generation of sampling warmup points using dynamic load balancing.}}{89}{table.caption.69}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Selected whole-body parameters in inter-individual variability simulations.}}{112}{table.caption.80}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces Optimal classifier parameters}}{151}{table.caption.87}
+\contentsline {table}{\numberline {A.2}{\ignorespaces Automatically optimized SVM hyperparameters.}}{152}{table.caption.88}
+\contentsline {table}{\numberline {A.3}{\ignorespaces Area under the ROC curve of the predicted side effect.}}{153}{table.caption.89}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {B.1}{\ignorespaces Ordinary differential equation-based levodopa pharmacokinetics.}}{165}{table.caption.101}
+\contentsline {table}{\numberline {B.2}{\ignorespaces Whole-body generic PBPK model parameter estimation from curve fitting.}}{166}{table.caption.102}
+\contentsline {table}{\numberline {B.3}{\ignorespaces Reactions added to the sIEC model ordered by affinity of amino acids to the corresponding transporter.}}{167}{table.caption.103}
+\contentsline {table}{\numberline {B.4}{\ignorespaces Top 5 ranking parameter sensitivities.}}{169}{table.caption.105}
+\contentsline {table}{\numberline {B.5}{\ignorespaces Levodopa exchange substrate in the kidney and in the blood brain barrier.}}{170}{table.caption.106}
+\contentsline {table}{\numberline {B.6}{\ignorespaces Constraints subjected to a three organ model accounting for levodopa absorption, elimination, metabolism and competition with amino acids.}}{171}{table.caption.107}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {C.1}{\ignorespaces Differentially expressed metabolic genes in type 1 diabetes.}}{181}{table.caption.123}
+\contentsline {table}{\numberline {C.2}{\ignorespaces Pancreatic reactions corresponding to the differentially expressed genes in type 1 diabetes.}}{182}{table.caption.124}
+\contentsline {table}{\numberline {C.3}{\ignorespaces Parameters of the dynamical model simulations.}}{183}{table.caption.125}
+\contentsline {table}{\numberline {C.4}{\ignorespaces Selected functions linked to type 1 diabetes symptomatology.}}{184}{table.caption.126}
+\contentsline {table}{\numberline {C.5}{\ignorespaces Enriched KEGG terms in type 1 diabetes.}}{185}{table.caption.127}
+\contentsline {table}{\numberline {C.6}{\ignorespaces Small molecules that reverse type 1 diabetes metabolic fluxes.}}{186}{table.caption.128}
+\contentsline {table}{\numberline {C.7}{\ignorespaces Selected metabolic reactions with the highest sensitivities towards peripheral glucose concentrations.}}{203}{table.caption.141}
