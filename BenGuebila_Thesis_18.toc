@@ -1,0 +1,145 @@
+\select@language {english}
+\contentsline {section}{List of abbreviations}{XXI}{section*.5}
+\contentsline {chapter}{Summary}{1}{section*.10}
+\contentsline {chapter}{\numberline {1}Introduction: Integrative approaches for drug development.}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Drug discovery and development: challenges and opportunities.}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Constraint-based modelling of large scale human biological networks}{6}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Dynamic flux balance analysis frameworks}{9}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Global reconstruction of human metabolism}{12}{subsection.1.2.2}
+\contentsline {section}{\numberline {1.3}Pharmacokinetic modeling}{13}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Pharmacokinetic pharmacodynamic modelling (PKPD)}{13}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Physiologically-based pharmacokinetic modelling (PBPK)}{18}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.4}Combining COBRA and PBPK}{20}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}COBRA as pharmacodynamics - horizontal coupling}{20}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}COBRA as pharmacokinetics - vertical coupling}{23}{subsection.1.4.2}
+\contentsline {section}{\numberline {1.5}A new drug development paradigm}{24}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Preclinical phase}{25}{subsection.1.5.1}
+\contentsline {subsubsection}{Disease signatures as targets}{25}{section*.16}
+\contentsline {subsubsection}{Target-free drug repurposing and reclassification}{26}{section*.17}
+\contentsline {subsubsection}{Prediction of gastrointestinal side effects}{27}{section*.18}
+\contentsline {subsection}{\numberline {1.5.2}Clinical phase}{28}{subsection.1.5.2}
+\contentsline {subsubsection}{Improving the bioavailability of Levodopa}{28}{section*.20}
+\contentsline {subsubsection}{Assessing between- and within-patient response to insulin}{29}{section*.22}
+\contentsline {section}{\numberline {1.6}Scope and aim of the thesis}{31}{section.1.6}
+\contentsline {subsubsection}{Contributions}{32}{section*.23}
+\contentsline {subsubsection}{Contributions}{33}{section*.24}
+\contentsline {subsubsection}{Contributions}{33}{section*.25}
+\contentsline {subsubsection}{Contributions}{33}{section*.26}
+\contentsline {subsubsection}{Contributions}{34}{section*.27}
+\contentsline {chapter}{\numberline {2}Predicting gastrointestinal drug effects using contextualized metabolic models.}{35}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{36}{section.2.1}
+\contentsline {section}{\numberline {2.2}Methods}{37}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Data generation}{37}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Subjecting gene expression as constraints on metabolic models}{38}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Building the multi-class support vector machine}{40}{subsection.2.2.3}
+\contentsline {subsubsection}{Feature selection algorithm}{40}{section*.29}
+\contentsline {subsubsection}{k parameter of ReliefF}{40}{section*.30}
+\contentsline {subsubsection}{Number of features}{41}{section*.31}
+\contentsline {subsubsection}{Cross-validation method}{41}{section*.32}
+\contentsline {subsubsection}{Misclassification cost}{42}{section*.33}
+\contentsline {subsubsection}{Observation weight}{42}{section*.34}
+\contentsline {subsubsection}{SVM kernel}{42}{section*.35}
+\contentsline {subsubsection}{Optimal hyperparameters}{43}{section*.36}
+\contentsline {subsection}{\numberline {2.2.4}Drug community identification, validation, and interpretation}{43}{subsection.2.2.4}
+\contentsline {subsubsection}{Graph clustering}{43}{section*.37}
+\contentsline {subsubsection}{Community detection}{43}{section*.38}
+\contentsline {subsubsection}{Cluster visualisation}{44}{section*.39}
+\contentsline {subsubsection}{Cluster validation}{44}{section*.40}
+\contentsline {subsubsection}{Gene set enrichment}{45}{section*.41}
+\contentsline {section}{\numberline {2.3}Results}{45}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Generating the combined drug gene expression and metabolism matrix}{45}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Combining measured gene expression and simulated gut wall metabolism predicts intestinal iatrogenic effects}{47}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Drug classification using transcriptional and intestinal metabolic activity}{48}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Discussion}{50}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Model generation and parameter selection}{52}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Sampling the metabolic model of the gut wall achieved the highest prediction accuracy}{54}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Drug reclassification beyond the chemical class}{55}{subsection.2.4.3}
+\contentsline {chapter}{\numberline {3}Model-based dietary optimization for late-stage, levodopa-treated, Parkinson's disease patients.}{57}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{58}{section.3.1}
+\contentsline {section}{\numberline {3.2}Methods}{59}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Whole-body PBPK modeling and system identification}{59}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}sIEC model}{60}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Coupling algorithm}{61}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Results}{61}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Modeling intestinal absorption of levodopa using a combined PBPK\IeC {\textendash }COBRA model}{61}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Dietary intervention is needed for HY 3 and HY 4 patients}{64}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}PRD improves the bioavailability of levodopa over LPD}{64}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Impaired gastrointestinal processes reduced levodopa efficacy}{66}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Ranking of amino acids effects toward levodopa bioavailability revealed serine-rich diet as a potential augmenting diet for levodopa \textit {in silico}}{68}{subsection.3.3.5}
+\contentsline {section}{\numberline {3.4}Discussion}{70}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}The combined model: construction, assumptions and validation}{70}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Late-stage, levodopa-treated Parkinon's disease patients would benefit the most by dietary intervention}{71}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Gastrointestinal transit and loss of levodopa explained most of the variability in levodopa bioavailability}{71}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}PRD but not LPD improved the bioavailability of levodopa}{72}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}Serine-rich diet could increase the brain levodopa bioavailability}{73}{subsection.3.4.5}
+\contentsline {chapter}{\numberline {4}Dynamic load balancing enables fast and parallel computation of large-scale metabolic models.}{75}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{76}{section.4.1}
+\contentsline {section}{\numberline {4.2}Material and methods}{77}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Flux variability analysis}{77}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Management of parallelism}{78}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Another application: generation of warmup points}{79}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Model description}{79}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Hardware and software}{79}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}Other possible implementations}{81}{subsection.4.2.6}
+\contentsline {section}{\numberline {4.3}Results}{81}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Parallel construct in a hybrid OpenMP/MPI setting}{82}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Impact on computing small models}{83}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Impact on computing large models}{84}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Load management}{84}{subsection.4.3.4}
+\contentsline {subsubsection}{Static schedule}{85}{section*.63}
+\contentsline {subsubsection}{Guided schedule}{86}{section*.64}
+\contentsline {subsubsection}{Dynamic schedule}{86}{section*.65}
+\contentsline {subsection}{\numberline {4.3.5}Impact on memory usage}{86}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}Creation of warmup points for sampling}{89}{subsection.4.3.6}
+\contentsline {chapter}{\numberline {5}Pan-organ model integration of regulatory and metabolic processes in type 1 diabetes.}{91}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{93}{section.5.1}
+\contentsline {section}{\numberline {5.2}Methods}{94}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Coupling the dynamical model and the constraint-based model}{94}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Comparison of the predictive capabilities of the different models}{97}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Modeling T1D off-target effects in the pancreas}{98}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Modeling insulin off-target effects in the liver}{99}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}Simulation of inter-individual variability to insulin response}{99}{subsection.5.2.5}
+\contentsline {subsection}{\numberline {5.2.6}CRONICS, the simulation algorithm}{100}{subsection.5.2.6}
+\contentsline {subsection}{\numberline {5.2.7}Metabolic network topology}{100}{subsection.5.2.7}
+\contentsline {subsection}{\numberline {5.2.8}Sensitivity analysis of the hybrid model, intra-individual variability, and multivariate regression}{101}{subsection.5.2.8}
+\contentsline {section}{\numberline {5.3}Results}{103}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Whole body flux dynamics discriminate between healthy and type 1 diabetes and insulin and glucose challenges}{103}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Differential reaction fluxes between healthy individuals and type 1 diabetes patients}{106}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Prediction of exogenous insulin off-target effects}{109}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Between-subject variability is reflected in citric acid cycle and oxidative phosphorylation}{111}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.5}Within-subject variability to insulin}{113}{subsection.5.3.5}
+\contentsline {section}{\numberline {5.4}Discussion}{116}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Chronic inflammation in type 1 diabetes improves disease identification using whole-body fluxes}{116}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Differentially regulated fluxes suggest mechanisms underlying the systemic symptomatology of type 1 diabetes}{117}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Insulin rewires inter-organ exchange}{120}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Insulin-mediated hysteresis reflects between-subject variability}{120}{subsection.5.4.4}
+\contentsline {subsection}{\numberline {5.4.5}GLUT4 as a pharmacogenomics target for diabetes control}{122}{subsection.5.4.5}
+\contentsline {chapter}{\numberline {6}Concluding remarks}{125}{chapter.6}
+\contentsline {section}{\numberline {6.1}Constraining dynamical models, how much is enough?}{126}{section.6.1}
+\contentsline {section}{\numberline {6.2}Tractability and model reduction}{127}{section.6.2}
+\contentsline {section}{\numberline {6.3}A regulatory perspective}{128}{section.6.3}
+\contentsline {section}{\numberline {6.4}What is next? writing the ODE of life.}{129}{section.6.4}
+\contentsline {chapter}{\numberline {A}Supplementary material for Chapter 2}{151}{appendix.A}
+\contentsline {section}{\numberline {A.1}Supplementary tables}{151}{section.A.1}
+\contentsline {section}{\numberline {A.2}Supplementary figures}{154}{section.A.2}
+\contentsline {chapter}{\numberline {B}Supplementary material for Chapter 3}{165}{appendix.B}
+\contentsline {section}{\numberline {B.1}Supplementary tables}{165}{section.B.1}
+\contentsline {section}{\numberline {B.2}Supplementary figures}{173}{section.B.2}
+\contentsline {subsubsection}{Dynamical modeling of levodopa gastrointestinal transit and metabolism within the whole body generic PBPK model}{173}{section*.109}
+\contentsline {subsubsection}{Parameter estimation}{173}{section*.112}
+\contentsline {subsubsection}{Adding levodopa reactions to sIEC}{173}{section*.113}
+\contentsline {subsubsection}{Sequential fit on two occasions: fasted and fed states}{176}{section*.117}
+\contentsline {subsubsection}{Amino acids ranking simulations}{176}{section*.120}
+\contentsline {chapter}{\numberline {C}Supplementary material for Chapter 5}{181}{appendix.C}
+\contentsline {section}{\numberline {C.1}Supplementary tables}{181}{section.C.1}
+\contentsline {section}{\numberline {C.2}Supplementary figures}{187}{section.C.2}
+\contentsline {subsection}{\numberline {C.2.1}Construction of the hybrid model}{187}{subsection.C.2.1}
+\contentsline {subsection}{\numberline {C.2.2}Simulation setting}{188}{subsection.C.2.2}
+\contentsline {subsubsection}{Tolerance tests}{188}{section*.131}
+\contentsline {subsection}{\numberline {C.2.3}Relaxing infeasible problems}{190}{subsection.C.2.3}
+\contentsline {subsection}{\numberline {C.2.4}CRONICS framework}{191}{subsection.C.2.4}
+\contentsline {subsection}{\numberline {C.2.5}Software and solver parameters}{193}{subsection.C.2.5}
+\contentsline {subsection}{\numberline {C.2.6}Differentially expressed fluxes between healthy and type 1 diabetic models}{194}{subsection.C.2.6}
+\contentsline {subsection}{\numberline {C.2.7}Enrichment of gene vectors}{194}{subsection.C.2.7}
+\contentsline {subsection}{\numberline {C.2.8}Comparison of flux density estimates}{196}{subsection.C.2.8}
+\contentsline {subsection}{\numberline {C.2.9}Intra-individual variability to insulin response}{196}{subsection.C.2.9}
